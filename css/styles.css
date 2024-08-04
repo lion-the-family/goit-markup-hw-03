@@ -148,7 +148,17 @@ a {
 }
 
 .visually-hidden {
-    visibility: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .section-list {
     display: flex;
@@ -224,8 +234,9 @@ a {
 /* #endregion 3 Section */
 
 /* #region 4 Section */
-.section-fourth {
-  
+.section {
+    padding-top: 120px; 
+    padding-bottom: 120px;
 }
 .portfolio {
     font-weight: 700;
@@ -235,16 +246,21 @@ a {
     color: #2e2f42;
     text-align: center;
     text-transform: capitalize;
-    padding: 120px 0 72px 0;
+    margin-bottom: 72px;
 }
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 19px;
-    padding-bottom: 120px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .portfolio-item {
     border: 1px solid #e7e9fc;
+    width: 360px;
+    height: 420px;
+}
+.group_item{
+    padding: 32px 16px;
 }
 .name-profil {
     font-weight: 500;
@@ -252,7 +268,7 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 32px 16px 8px 16px;
+    margin-bottom: 8px;
 }
 .author-worktitle {
     font-weight: 400;
@@ -260,18 +276,17 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding: 0 16px 32px 16px;
 }
 /* #endregion 4 Section */
 
 /* #region Footer */
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
-.footer-wrapper {
-    padding: 100px 0 0 156px;
-}
+
 .footer-logo {
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -279,7 +294,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    
+    margin-bottom: 16px;
 }
 
 .footer-desc {
@@ -289,6 +304,5 @@ a {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    padding: 16px 0 100px 0;
 }
 /* #endregion Footer */
