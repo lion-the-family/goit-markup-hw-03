@@ -146,17 +146,9 @@ a {
 .section-second {
     padding: 120px 0;
 }
+
 .visually-hidden {
-    position: fixed;
-    transform: scale(0);
-}
-.section-title {
-    font-weight: 700;
-    font-size: 36px; 
-    line-height: 1.11111;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-align: center;
+    visibility: hidden;
 }
 .section-list {
     display: flex;
@@ -206,9 +198,11 @@ a {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
     width: 264px;
     height: 380px;
+}
+.name-group {
+    padding: 32px 0;
 }
 .name-author {
     font-weight: 500;
@@ -217,7 +211,6 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 .author-jobtitle {
