@@ -108,6 +108,7 @@ a {
 .section-one {
     background-color: #2e2f42;
     padding: 188px 0;
+    width: max-content;
 }
 .section-name {
     font-weight: 700;
@@ -188,7 +189,9 @@ a {
 /* #region 3 Section */
 .section-third {
     padding: 120px 0;
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
+    width: max-content;
+    
 }
 .section-team {
     font-weight: 700;
@@ -284,6 +287,7 @@ a {
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
+    width: max-content;
 }
 
 .footer-logo {
