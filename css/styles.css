@@ -255,12 +255,12 @@ a {
     row-gap: 48px;
 }
 .portfolio-item {
-    border: 1px solid #e7e9fc;
     width: 360px;
     height: 420px;
 }
 .group_item{
     padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 .name-profil {
     font-weight: 500;
