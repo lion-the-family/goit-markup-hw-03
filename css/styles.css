@@ -10,7 +10,7 @@ img  {
     display: block;
 }
 .container {
-    width: 1128px;
+    width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -47,16 +47,15 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
+    padding: 24px 0;
 }
 .nav-list {
     display: flex;
-    margin-left: 76px;
     gap: 40px;
-
 }
 
 .nav-list_item {
-    padding: 24px 0;
 }
 .info-list_item:last-child {
     padding: 0;
@@ -108,11 +107,8 @@ a {
 /* #region 1 Section */
 .section-one {
     background-color: #2e2f42;
-}
-.wrapper {
     padding: 188px 0;
 }
-
 .section-name {
     font-weight: 700;
     font-size: 56px;
@@ -148,6 +144,7 @@ a {
 
 /* #region 2 Section */
 .section-second {
+    padding: 120px 0;
 }
 .section-title {
     font-weight: 700;
@@ -156,24 +153,22 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
-    padding: 60px 60px;
+    visibility: hidden;
 }
 .section-list {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-between;
+    gap: 24px;
 }
 .section-item {
     max-width: 264px;
-    padding-bottom: 120px;
 }
 .section-talent {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42
+    color: #2e2f42;
+    margin-bottom: 8px;
 }
 .section-desc {
     font-weight: 400;
